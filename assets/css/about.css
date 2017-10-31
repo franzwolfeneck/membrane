@@ -1,0 +1,184 @@
+body {
+  	font-family: 'Arial Regular', arial, helvetica, sans-serif;
+  	width: 960px;
+  	margin: 0px;
+  	padding: 0px;
+}
+
+#wrapper {
+	margin: 0, auto, 0, auto;
+	background-color: white;
+	height: 1100px;
+}
+
+.draggable { 
+	position: relative; 
+}
+
+.overlay { 
+	background: url('../images/gradient-overlay.png') 0 0; 
+	background-size: 100% 100%;
+	display: none; 
+	height: 98%; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%;
+}
+
+.title { 
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	padding: 30px;
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	margin-left: -57px;
+	width: 50px;
+	top: 50%;
+	margin-top: -57px;
+}
+
+.title a {
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+
+.title a:hover {
+	font-style: italic;
+	color: white;
+	font-size: 14px;
+}
+
+.draggable:hover .overlay { 
+	display: block; 
+}
+
+.draggable:hover { 
+	z-index: 5000; cursor: move; 
+}
+	
+.neto16 {
+	position: absolute;
+	top: 120px;
+	left: 300px;	
+}
+
+.christo19 {
+	position: absolute;
+	top: 110px;
+	left: 590px;
+}
+
+.doho7 {
+	position: absolute;
+	top: 100px;
+	left: 860px;
+}
+
+.saville7 {
+	position: absolute;
+	top: 310px;
+	left: 270px;
+}
+
+.christo3 {
+	position: absolute;
+	top: 240px;
+	left: 940px;
+}
+
+.berlinde2 {
+	position: absolute;
+	top: 560px;	left: 600px;
+}
+
+.doho8 {
+	position: absolute;
+	top: 540px;
+	left: 330px;
+}
+
+.saville2 {
+	position: absolute;
+	top: 480px;
+	left: 850px;
+}
+	
+.header a {
+	margin: 4px 10px 4px 10px;
+	padding: 6px 10px 6px 10px;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	font-size: 24px;
+	font: Arialbold;
+	text-decoration: none;
+}
+
+.header a:hover {
+	background-color: black;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	color: white;
+}
+
+.header reset a:link {
+	margin: 4px 8px 4px 8px;
+	padding: 6px 10px 6px 10px;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	font-size: 24px;
+	font: Arialbold;
+	text-decoration: none;
+}
+
+#container { 
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	width: 600px;
+	}
+
+.square {
+	float: left;
+	height: 294px;
+	width: 355px;
+	margin: 10px 10px 6px 20px;
+	padding: 10px 15px 6px 15px;
+	position: absolute;
+	top: 289px;
+	left: 393px;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-left: 7px;
+	margin-right: 7px;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+}
+
+p {
+	margin-top: 10px;
+	margin-left: 7px;
+	margin-right: 7px;
+	color: black;
+	font-size: 13px;
+	line-height: 125%;
+	text-decoration: none;
+}

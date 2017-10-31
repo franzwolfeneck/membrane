@@ -1,0 +1,225 @@
+body {
+  	font-family: 'Arial Regular', arial, helvetica, sans-serif;
+  	width: 960px;
+  	margin: 0px;
+  	padding: 0px;
+}
+
+#wrapper {
+	margin: 0, auto, 0, auto;
+	background-color: white;
+	height: 1100px;
+}
+
+.draggable { 
+	position: relative; 
+}
+
+.overlay { 
+	background: url('../images/gradient-overlay.png') 0 0; 
+	background-size: 100% 100%;
+	display: none; 
+	height: 100%; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%;
+}
+
+.overlay { 
+	background: url('../images/gradient-overlay.png') 0 0; 
+	background-size: 100% 100%;
+	display: none; 
+	height: 100%; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%;
+}
+
+.title { 
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	padding: 40px;
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	margin-left: -67px;
+	width: 50px;
+	top: 50%;
+	margin-top: -67px;
+}
+
+.title a {
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+
+.title a:hover {
+	font-style: italic;
+	color: white;
+	font-size: 14px;
+}
+
+.draggable:hover .overlay { 
+	display: block; 
+}
+
+.draggable:hover { 
+	z-index: 5000; cursor: move; 
+}
+	
+.saville3 {
+	position: absolute;
+	top: 100px;
+	left: 390px;	
+}
+
+.saville2 {
+	position: absolute;
+	top: 160px;
+	left: 890px;
+}
+
+.saville17 {
+	position: absolute;
+	top: 80px;
+	left: 680px;
+}
+
+.saville1 {
+	position: absolute;
+	top: 260px;
+	left: 270px;
+}
+
+.saville7 {
+	position: absolute;
+	top: 450px;
+	left: 440px;
+}
+
+.saville16 {
+	position: absolute;
+	top: 430px;
+	left: 790px;
+}
+	
+.header a {
+	margin: 4px 8px 4px 8px;
+	padding: 6px 10px 6px 10px;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	font-size: 23px;
+	font: Arial;
+	text-decoration: none;
+}
+
+.header a:hover {
+	background-color: black;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	color: white;
+}
+
+#container { 
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	width: 600px;
+	}
+
+.square {
+	float: left;
+	height: 295px;
+	width: 340px;
+	margin: 10px 10px 6px 10px;
+	padding: 10px 15px 6px 15px;
+	position: absolute;
+	top: 289px;
+	left: 393px;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-left: 7px;
+	margin-right: 7px;
+	font-size: 13px;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+}
+
+.text {
+	margin-top: 10px;
+	margin-left: 7px;
+	margin-right: 7px;
+	font-size: 13px;
+	color: black;
+	line-height: 125%;
+	text-decoration: none;
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+}
+
+#directory { 
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	width: 600px;
+	}
+
+.container {
+	float: left;
+	height: 135px;
+	width: 160px;
+	margin: 10px 10px 6px 10px;
+	padding: 10px 15px 6px 15px;
+	position: absolute;
+	top: 289px;
+	left: 393px;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-left: 7px;
+	margin-right: 7px;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+}
+
+.artist a {
+	margin-top: 10px;
+	margin-left: 7px;
+	margin-right: 7px;
+	font-size: 13px;
+	font-style: none;
+	color: black;
+	line-height: 125%;
+	text-decoration: none;
+}
+
+.artist a:hover {
+	color: black;
+	font-size: 13px;
+	font-style: italic;
+	text-decoration: none;
+}
